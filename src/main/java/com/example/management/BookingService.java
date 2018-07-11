@@ -31,7 +31,8 @@ public class BookingService {
                     float min_staff = (float) i.getMin_staff();
                     if(total_rooms / current_staff > min_staff){
 
-                        AllocationService.AllocateStaff(id);
+                        //AllocationService.AllocateStaff(id);
+                        int x = 10;
                     }
 
 
