@@ -21,7 +21,6 @@ public class Staff {
     //   @GeneratedValue(strategy = GenerationType.AUTO)
 
     private String name;
-    private int cluster_id;
     private int salary;
     private int current_hotel_id;
 
@@ -31,7 +30,6 @@ public class Staff {
     public Staff(int staff_id, String name, int cluster_id, int salary, int current_hotel_id) {
         this.staff_id = staff_id;
         this.name = name;
-        this.cluster_id = cluster_id;
         this.salary = salary;
         this.current_hotel_id = current_hotel_id;
     }
@@ -52,13 +50,6 @@ public class Staff {
         this.name = name;
     }
 
-    public int getCluster_id() {
-        return cluster_id;
-    }
-
-    public void setCluster_id(int cluster_id) {
-        this.cluster_id = cluster_id;
-    }
 
     public int getSalary() {
         return salary;

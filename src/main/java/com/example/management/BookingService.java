@@ -14,7 +14,7 @@ public class BookingService {
     @Autowired
     AllocationService allocationService;
 
-    public String BookRoom(int id) {
+    public String BookRooms(int id,int rooms) {
 
         Iterable<Hotel> hotels = hotelRepository.findAll();
 
@@ -23,22 +23,10 @@ public class BookingService {
             if (i.getHotel_id() == id) {
 
                 Hotel temp = new Hotel(i);
-                if(i.getCurrent_bookings() != i.getTotal_rooms()) {
-                    temp.setCurrent_bookings(i.getCurrent_bookings() + 1);
-                    hotelRepository.save(temp);
-                    float total_rooms = (float) i.getTotal_rooms();
-                    float current_staff = (float) i.getCurrent_staff();
-                    float min_staff = (float) i.getMin_staff();
-                    if(total_rooms / current_staff > min_staff){
+                temp.setCurrent_bookings(i.getCurrent_bookings()+rooms);
+                temp.updateRatio();
+                hotelRepository.save(temp);
 
-                        //AllocationService.AllocateStaff(id);
-                        int x = 10;
-                    }
-
-
-
-                }
-                hotel = i;
             }
 
         return "Room Booked for hotel id " + Integer.toString(hotel.getHotel_id());

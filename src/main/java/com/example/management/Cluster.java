@@ -10,8 +10,8 @@ import javax.persistence.Table;
 public class Cluster {
 
     @Id
-    private int ClusterId;
+    private int cluster_id;
 
-    private String ClusterName;
+    private String cluter_name;
 
 }

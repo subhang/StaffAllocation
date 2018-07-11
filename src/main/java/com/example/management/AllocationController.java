@@ -1,26 +1,25 @@
 package com.example.management;
 
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class BookingController {
+public class AllocationController {
 
 
     @Autowired
-    BookingService bookingService;
+    AllocationService allocationService;
 
-    @RequestMapping("/bookroom/{hotel_id}/{rooms}")
-    public String bookRoom(@PathVariable int id,@PathVariable int rooms){
+    @RequestMapping("/allocatestaff/{id}/")
+    public String bookRoom(@PathVariable int id){
 
 
-        return bookingService.BookRooms(id,rooms);
+        return allocationService.AllocateStaff(id);
 
     }
-
-
 
 
 }
