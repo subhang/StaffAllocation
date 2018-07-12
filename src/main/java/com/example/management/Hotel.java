@@ -18,7 +18,7 @@ public class Hotel {
     private int cluster_id;
     private int total_rooms;
 
-    private int current_bookings;
+    private int current_rooms;
     private int current_staff;
     private float ratio;
 
@@ -31,22 +31,21 @@ public class Hotel {
         this.manager_id = hotel.manager_id;
         this.cluster_id = hotel.cluster_id;
         this.total_rooms = hotel.total_rooms;
-        this.current_bookings = hotel.current_bookings;
+        this.current_rooms = hotel.current_rooms;
         this.current_staff = hotel.current_staff;
-        this.ratio = (float) hotel.current_bookings / (float) hotel.current_staff ;
+        this.ratio = (float) hotel.current_rooms / (float) hotel.current_staff ;
 
     }
 
-    public Hotel(int hotel_id, String hotel_name, int manager_id, int cluster_id, int total_rooms, int current_bookings, int current_staff, float ratio, int cluster_id1) {
+    public Hotel(int hotel_id, String hotel_name, int manager_id, int total_rooms, int current_rooms, int current_staff, float ratio, int cluster_id) {
         this.hotel_id = hotel_id;
         this.hotel_name = hotel_name;
         this.manager_id = manager_id;
-        this.cluster_id = cluster_id;
         this.total_rooms = total_rooms;
-        this.current_bookings = current_bookings;
+        this.current_rooms = current_rooms;
         this.current_staff = current_staff;
-        this.ratio = (float) current_bookings / (float) current_staff ;
-        this.cluster_id = cluster_id1;
+        this.ratio = (float) current_rooms / (float) current_staff ;
+        this.cluster_id = cluster_id;
     }
 
     public int getHotel_id() {
@@ -89,12 +88,12 @@ public class Hotel {
         this.total_rooms = total_rooms;
     }
 
-    public int getCurrent_bookings() {
-        return current_bookings;
+    public int getCurrent_rooms() {
+        return current_rooms;
     }
 
-    public void setCurrent_bookings(int current_bookings) {
-        this.current_bookings = current_bookings;
+    public void setCurrent_rooms(int current_rooms) {
+        this.current_rooms = current_rooms;
     }
 
     public int getCurrent_staff() {
@@ -114,7 +113,7 @@ public class Hotel {
     }
     public void updateRatio(){
 
-        this.ratio = (float) current_bookings / (float) current_staff ;
+        this.ratio = (float) current_rooms / (float) current_staff ;
 
     }
 }

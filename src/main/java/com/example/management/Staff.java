@@ -20,18 +20,28 @@ public class Staff {
 
     //   @GeneratedValue(strategy = GenerationType.AUTO)
 
-    private String name;
+    private String staff_name;
     private int salary;
     private int current_hotel_id;
+    private int cluster_id;
+
+    public int getCluster_id() {
+        return cluster_id;
+    }
+
+    public void setCluster_id(int cluster_id) {
+        this.cluster_id = cluster_id;
+    }
 
     public Staff() {
     }
 
-    public Staff(int staff_id, String name, int cluster_id, int salary, int current_hotel_id) {
+    public Staff(int staff_id, String staff_name, int cluster_id, int salary, int current_hotel_id) {
         this.staff_id = staff_id;
-        this.name = name;
+        this.staff_name = staff_name;
         this.salary = salary;
         this.current_hotel_id = current_hotel_id;
+        this.cluster_id = cluster_id;
     }
 
     public int getStaff_id() {
@@ -42,12 +52,12 @@ public class Staff {
         this.staff_id = staff_id;
     }
 
-    public String getName() {
-        return name;
+    public String getstaff_name() {
+        return staff_name;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setstaff_name(String staff_name) {
+        this.staff_name = staff_name;
     }
 
 

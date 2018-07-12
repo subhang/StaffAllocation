@@ -4,6 +4,7 @@ import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -13,14 +14,30 @@ public class MyController {
     @Autowired
     StaffRepository repository;
 
-    @RequestMapping("/save")
 
-    public String process(Model model) {
+    @Autowired
+    BookingService bookingService;
 
-        Staff hyd = repository.save(new Staff(200, "shanks", 2,5000,6));
-       return "done";
-        //return (List<Staff>) repository.findAll();
+    @Autowired
+    AllocationService allocationService;
+
+    @RequestMapping("/allocatestaff/{id}")
+    public String AllocateStaff(@PathVariable int id){
+
+
+        return allocationService.AllocateStaff(id);
+
     }
+
+    @RequestMapping(value = "/bookroom/{hotel_id}/{rooms}")
+    public String bookRoom(@PathVariable("hotel_id") int id,@PathVariable("rooms") int rs){
+
+
+        return bookingService.BookRooms(id,rs);
+
+    }
+
+
 
 
 }

@@ -21,14 +21,15 @@ public class AllocationService {
         int temp = 0;
         Hotel AllocatedHotel = new Hotel();
         Hotel currentHotel = new Hotel();
-        for (Hotel i : hotels)  if(i.getHotel_id() == hotel_id) currentHotel = i;
+        for (Hotel i : hotels)  if(i.getHotel_id() == hotel_id) AllocatedHotel = new Hotel(i);
 
         for(Hotel i : hotels){
 
 
-            if((i.getHotel_id() != currentHotel.getHotel_id())  && (i.getCluster_id() == currentHotel.getCluster_id() ) && ( i.getRatio() < maxi)){
+            if((i.getHotel_id() != AllocatedHotel.getHotel_id())  && (i.getCluster_id() == AllocatedHotel.getCluster_id() ) && ( i.getRatio() < maxi)){
 
-                AllocatedHotel = i;
+                currentHotel = new Hotel(i);
+                maxi = i.getRatio();
 
             }
         }

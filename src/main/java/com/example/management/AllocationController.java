@@ -6,20 +6,19 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-@RestController
 public class AllocationController {
 
 
-    @Autowired
+/*    @Autowired
     AllocationService allocationService;
 
-    @RequestMapping("/allocatestaff/{id}/")
-    public String bookRoom(@PathVariable int id){
+    @RequestMapping("/allocatestaff/{id}")
+    public String AllocateStaff(@PathVariable int id){
 
 
         return allocationService.AllocateStaff(id);
 
-    }
+    }*/
 
 
 }
