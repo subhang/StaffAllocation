@@ -25,6 +25,8 @@ public class Hotel {
     public Hotel(){
 
     }
+    //yo yo
+
     public Hotel(Hotel hotel){
         this.hotel_id = hotel.hotel_id;
         this.hotel_name = hotel.hotel_name;

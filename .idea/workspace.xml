@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ba7b1b8-fc7a-40b5-be8f-1eb6522fdb83" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/SQLFiles/AddingClusters.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SQLFiles/AddingManagers/AddingManagers.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/SQLFiles/AddingStaff.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/management/Initializer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/management/AllocationController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/management/AllocationService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/management/Initializer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/management/Manager.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/example/management/wtfisthis.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SQLFiles/AddingHotels.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SQLFiles/AddingHotels.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/SQLFiles/HotelSchema.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SQLFiles/HotelSchema.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/management/AllocationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/management/AllocationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/management/AllocationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/management/AllocationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/management/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/management/BookingController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/management/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/management/BookingService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/management/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/management/Hotel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/management/HotelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/management/HotelRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/management/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/management/MyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/management/Staff.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/management/Staff.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/management/StaffRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/management/StaffRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/management/BookingController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/management/BookingController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/management/BookingService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/management/BookingService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/management/Cluster.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/management/Cluster.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/management/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/management/Hotel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/management/HotelRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/management/HotelRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/management/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/management/MyController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/management/Staff.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/management/Staff.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/management/StaffRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/management/StaffRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SQLFiles/AddingStaff.sql" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SQLFiles/AddingStaff.sql" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,23 +16,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AllocationService.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AllocationService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/management/AllocationService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="314">
-              <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+            <state relative-caret-position="540">
+              <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HotelRepository.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/management/HotelRepository.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -68,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/management/Cluster.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -76,7 +40,7 @@
       <file leaf-file-name="BookingController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/management/BookingController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="296">
+            <state relative-caret-position="375">
               <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -88,7 +52,7 @@
       <file leaf-file-name="MyController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/management/MyController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="325">
+            <state relative-caret-position="435">
               <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -101,7 +65,16 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/SQLFiles/AddingHotels.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
-              <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+              <caret line="6" selection-start-line="6" selection-end-line="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AddingClusters.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/SQLFiles/AddingClusters.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -109,8 +82,8 @@
       <file leaf-file-name="AddingStaff.sql" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/SQLFiles/AddingStaff.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+            <state relative-caret-position="150">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -118,8 +91,8 @@
       <file leaf-file-name="BookingService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/management/BookingService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="256">
-              <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+            <state relative-caret-position="15">
+              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -127,11 +100,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="HotelSchema.sql" pinned="false" current-in-tab="false">
+      <file leaf-file-name="HotelSchema.sql" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/SQLFiles/HotelSchema.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="20" selection-start-line="6" selection-end-line="7" />
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -139,8 +112,8 @@
       <file leaf-file-name="Hotel.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/management/Hotel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-184">
-              <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+            <state relative-caret-position="675">
+              <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -183,7 +156,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/management/Manager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/management/Cluster.java" />
         <option value="$PROJECT_DIR$/src/main/java/SQLFiles/AddingClusters.sql" />
-        <option value="$PROJECT_DIR$/src/main/java/SQLFiles/AddingStaff.sql" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/management/Hotel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/management/Initializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/management/Staff.java" />
@@ -196,6 +168,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/example/management/BookingService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/management/MyController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/management/AllocationService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/SQLFiles/AddingStaff.sql" />
       </list>
     </option>
   </component>
@@ -225,6 +198,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -279,7 +253,6 @@
         </subPane>
       </pane>
       <pane id="AndroidView" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -364,12 +337,13 @@
       <updated>1531201794651</updated>
       <workItem from="1531201798090" duration="12743000" />
       <workItem from="1531372005921" duration="371000" />
-      <workItem from="1531376115037" duration="4377000" />
+      <workItem from="1531376115037" duration="5436000" />
+      <workItem from="1531462033979" duration="1117000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33335000" />
+    <option name="totallyTimeSpent" value="35511000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
@@ -387,34 +361,33 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32969698" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32969698" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32969698" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32969698" />
       <window_info anchor="bottom" id="Spring" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32969698" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.32969698" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32969698" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
     <layout-to-restore>
       <window_info id="Designer" order="0" />
       <window_info anchor="right" id="Palette" order="0" />
-      <window_info anchor="bottom" id="Run" order="9" weight="0.32969698" />
       <window_info anchor="bottom" id="Spring" order="0" />
       <window_info id="Image Layers" order="1" />
-      <window_info anchor="bottom" id="Find" order="8" />
+      <window_info anchor="bottom" id="Run" order="9" weight="0.32969698" />
       <window_info anchor="bottom" id="Cvs" order="11" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -439,8 +412,9 @@
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Structure" order="7" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="12" weight="0.4" />
-      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="8" />
       <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="bottom" id="Debug" order="10" weight="0.4" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,9 +501,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -653,9 +624,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="594">
           <caret line="43" column="21" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -763,20 +731,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SQLFiles/AddingClusters.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/management/AllocationController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -784,9 +742,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="498">
           <caret line="61" lean-forward="true" selection-start-line="61" selection-end-line="61" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -800,31 +755,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/management/HotelRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/management/Cluster.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="14" column="31" lean-forward="true" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/management/Hotel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-184">
-          <caret line="47" column="37" lean-forward="true" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/management/BookingService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="256">
-          <caret line="24" column="19" selection-start-line="24" selection-start-column="19" selection-end-line="24" selection-end-column="19" />
+        <state relative-caret-position="675">
+          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -833,7 +778,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/management/BookingController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
+        <state relative-caret-position="375">
           <caret line="28" column="30" selection-start-line="28" selection-start-column="30" selection-end-line="28" selection-end-column="30" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -841,30 +786,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SQLFiles/HotelSchema.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="20" selection-start-line="6" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SQLFiles/AddingStaff.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/SQLFiles/AddingHotels.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/management/MyController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="325">
+        <state relative-caret-position="435">
           <caret line="35" column="45" selection-start-line="35" selection-start-column="45" selection-end-line="35" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -874,11 +798,49 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/management/AllocationService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="314">
-          <caret line="31" column="36" selection-start-line="31" selection-start-column="36" selection-end-line="31" selection-end-column="36" />
+        <state relative-caret-position="540">
+          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/management/BookingService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SQLFiles/AddingStaff.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SQLFiles/AddingHotels.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SQLFiles/AddingClusters.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/SQLFiles/HotelSchema.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
